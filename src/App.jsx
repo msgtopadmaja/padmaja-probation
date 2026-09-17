@@ -261,7 +261,7 @@ function App() {
             <p><strong>Android Studio approach:</strong> I then explored an approach using <strong>Android Studio</strong>. By inspecting the elements through the native code hierarchy, I was able to clearly differentiate between <strong>WebView and native screens</strong>.</p>
             <p>This approach provided a more reliable way to identify whether a particular screen was rendered using a <strong>WebView or native UI component</strong>, especially on Android.</p>
             <div className="video-wrap" style={{ marginTop: '28px' }}>
-              <video controls playsInline preload="metadata" src="/sun.mov" />
+              <video controls playsInline preload="metadata" src="video/sun.mp4" />
             </div>
             <p className="webview-journey"><strong>Identify the WebView screen for iOS Device using Safari Web Inspector</strong></p>
             <p>The Android analysis was performed using Android Studio, which allowed us to distinguish between native screens and WebView screens. However, I could not validate the same behavior on iOS using Android Studio due to platform restrictions. To investigate the iOS application, I used Safari Web Inspector to identify whether a screen was native or rendered in a WebView. The inspection showed that the Home screen is native; however, when an article is selected from the Home screen, the Article Details page is rendered in a WebView. By inspecting the elements through the native code hierarchy, I was able to clearly differentiate between WebView and native screens.</p>
