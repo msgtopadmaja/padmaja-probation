@@ -3,15 +3,19 @@ Thumbs.db
 node_modules/
 dist/
 .netlify/
+
+# Raw screen recordings and archives stay out of git — they are large and
+# not served by the site.
 *.mov
-*.mp4
 *.avi
 *.mkv
+*.mp4
 *.webm
 *.zip
 *.tar
 *.gz
 
-*.mov
-
-*.mov
+# Exception: the case-study clips the site actually serves from /video/.
+# Without these negations the files below are silently ignored and never deploy.
+!public/video/*.mp4
+!public/video/*.webm
