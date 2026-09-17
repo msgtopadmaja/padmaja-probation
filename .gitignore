@@ -1,4 +1,13 @@
 .DS_Store
 Thumbs.db
 node_modules/
+dist/
 .netlify/
+*.mov
+*.mp4
+*.avi
+*.mkv
+*.webm
+*.zip
+*.tar
+*.gz
