@@ -606,6 +606,18 @@ p.lede {
   background: #000;
 }
 
+.video-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 180px;
+  padding: 24px;
+  color: var(--muted, #9aa0a6);
+  font-size: 13px;
+  text-align: center;
+  background: #000;
+}
+
 .flow {
   display: flex;
   align-items: center;
